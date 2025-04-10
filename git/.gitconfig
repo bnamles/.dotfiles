@@ -1,0 +1,26 @@
+[init]
+	defaultBranch = main
+[core]
+	autoclrf = input
+  pager = delta # requires https://github.com/dandavison/delta?tab=readme-ov-file
+[interactive]
+  diffFilter = delta --color-only
+[user]
+	email = 20780703+bnamles@users.noreply.github.com
+	name = namles
+	signingkey = 213DAF095B8552C1
+[commit]
+	gpgsign = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[delta]
+  navigate = true # use n and N to move between diff sections
+  #side-by-side = true
+[diff]
+  colorMoved = default
+[merge]
+  conflictstyle = diff3
+

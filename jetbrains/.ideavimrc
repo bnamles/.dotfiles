@@ -1,0 +1,10 @@
+set relativenumber
+set scrolloff=10
+set highlightedyank
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+set clipboard+=unnamed
+
+nnoremap <silent> <esc> :nohlsearch<CR><esc>
