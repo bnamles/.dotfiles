@@ -154,6 +154,8 @@ eval "$(zoxide init zsh)"
 
 # lazygit
 alias lg="lazygit"
+# lazydocker
+alias ld="lazydocker"
 
 #####
 # fzf
@@ -216,10 +218,6 @@ _fzf_comprun() {
 ## requires https://github.com/folke/tokyonight.nvim/blob/main/extras/sublime/tokyonight_night.tmTheme downloaded in $(bat --config-dir)/themes
 export BAT_THEME=tokyonight_night
 
-# thefuck
-eval $(thefuck --alias)
-eval $(thefuck --alias fk)
-
 # ssh
 ## first add passphrase to keychain with command (one-time) `ssh-add --apple-use-keychain ~/.ssh/id_rsa`
 if ! ssh-add -l &>/dev/null; then
@@ -229,11 +227,33 @@ fi
 # kubectl
 export KUBECONFIG=~/.kube/config
 
-# my dotfiles alias
-alias dotfiles='git --git-dir=$HOME/.repos/dotfiles/ --work-tree=$HOME'
-
 # fnm
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 # dotnet
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
+
+# pnpm
+export PNPM_HOME="$HOME/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=($HOME/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
+
+# Begin Azure CLI setup
+autoload bashcompinit && bashcompinit
+source $(brew --prefix)/etc/bash_completion.d/az
+# End Azure CLI setup
+export PATH="$HOME/.local/bin:$PATH"
+
+# bun completions
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
+
+if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init zsh)"; fi

@@ -1,0 +1,62 @@
+# Internet file retriever
+brew "wget"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
+brew "btop"
+# Modern, maintained replacement for ls
+brew "eza"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# Distributed revision control system
+brew "git"
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
+# Kubernetes package manager
+brew "helm"
+# Kubernetes CLI To Manage Your Clusters In Style!
+brew "k9s"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
+# Simple terminal UI for git commands
+brew "lazygit"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Theme for zsh
+brew "powerlevel10k"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
+# Official tldr client written in Rust
+brew "tlrc"
+# Pluggable terminal workspace, with terminal multiplexer as the base feature
+brew "zellij"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
+# Zsh port of Fish shell's history search
+brew "zsh-history-substring-search"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Statistics utility to count lines of code
+brew "cloc"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# Handy way to save and run project-specific commands
+brew "just"
+# Lazier way to manage everything docker
+brew "lazydocker"
+# Fast and accurate code counter with complexity and COCOMO estimates
+brew "scc"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# CLI for Git worktree management, designed for parallel AI agent workflows
+brew "worktrunk"

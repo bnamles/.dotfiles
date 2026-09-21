@@ -1,86 +1,37 @@
 tap "localsend/localsend"
 tap "oven-sh/bun"
-# Clone of cat(1) with syntax highlighting and Git integration
-brew "bat"
-# Resource monitor. C++ version and continuation of bashtop and bpytop
-brew "btop"
 # Secure runtime for JavaScript and TypeScript
 brew "deno"
 # .NET Core
 brew "dotnet"
 # Functional metaprogramming aware language built on Erlang VM
 brew "elixir"
-# Modern, maintained replacement for ls
-brew "eza"
-# Simple, fast and user-friendly alternative to find
-brew "fd"
 # Fast and simple Node.js version manager
 brew "fnm"
-# Command-line fuzzy finder written in Go
-brew "fzf"
 # GitHub command-line tool
 brew "gh"
-# Distributed revision control system
-brew "git"
-# Syntax-highlighting pager for git and diff output
-brew "git-delta"
 # Statically typed language for the Erlang VM
 brew "gleam"
-# GNU Pretty Good Privacy (PGP) package
-brew "gnupg"
 # Kubernetes package manager
 brew "helm"
 # Kubernetes CLI To Manage Your Clusters In Style!
 brew "k9s"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
-# Simple terminal UI for git commands
-brew "lazygit"
 # Postgres C API library
 brew "libpq"
-# Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
-# Pinentry for GPG on Mac
-brew "pinentry-mac"
 # Fast, disk space efficient package manager
 brew "pnpm"
 # Tool for managing OCI containers and pods
 brew "podman"
 # Alternative to docker-compose using podman
 brew "podman-compose"
-# Theme for zsh
-brew "powerlevel10k"
-# Search tool like grep and The Silver Searcher
-brew "ripgrep"
-# Organize software neatly under a single directory tree (e.g. /usr/local)
-brew "stow"
-# Programmatically correct mistyped console commands
-brew "thefuck"
-# Official tldr client written in Rust
-brew "tlrc"
-# Pluggable terminal workspace, with terminal multiplexer as the base feature
-brew "zellij"
-# Shell extension to navigate your filesystem faster
-brew "zoxide"
-# Fish-like fast/unobtrusive autosuggestions for zsh
-brew "zsh-autosuggestions"
-# Zsh port of Fish shell's history search
-brew "zsh-history-substring-search"
-# Fish shell like syntax highlighting for zsh
-brew "zsh-syntax-highlighting"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
 # Web browser
 cask "firefox"
 # UI toolkit for building applications for mobile, web and desktop
 cask "flutter"
-cask "font-fontawesome"
-cask "font-jetbrains-mono-nerd-font"
-cask "font-meslo-lg-nerd-font"
-# Terminal emulator that uses platform-native UI and GPU acceleration
-cask "ghostty"
-# Desktop client for GitHub repositories
-cask "github"
 # Password manager app
 cask "keepassxc"
 # An open source cross-platform alternative to AirDrop
@@ -91,8 +42,6 @@ cask "notion"
 cask "obsidian"
 # Document editor
 cask "onlyoffice"
-# Administration and development platform for PostgreSQL
-cask "pgadmin4"
 # Browse, manage, inspect containers and images
 cask "podman-desktop"
 # Control your tools with a few keystrokes
@@ -103,12 +52,11 @@ cask "spotify"
 cask "syncthing"
 # Open-source code editor
 cask "visual-studio-code"
-# GPU-accelerated cross-platform terminal emulator and multiplexer
-cask "wezterm"
+# REST, GraphQL and gRPC client
+cask "yaak"
 # Multiplayer code editor
 cask "zed"
-# Gecko based web browser
-cask "zen-browser"
+# Vscode extensions
 vscode "astro-build.astro-vscode"
 vscode "bradlc.vscode-tailwindcss"
 vscode "catppuccin.catppuccin-vsc"
