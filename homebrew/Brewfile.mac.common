@@ -1,0 +1,16 @@
+# Utility to configure multi-display resolutions and arrangements
+brew "displayplacer"
+# Pinentry for GPG on Mac
+brew "pinentry-mac"
+# Deep clean and optimize your Mac
+brew "mole"
+# Fonts
+cask "font-fontawesome"
+cask "font-jetbrains-mono-nerd-font"
+cask "font-meslo-lg-nerd-font"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# GPU-accelerated cross-platform terminal emulator and multiplexer
+cask "wezterm"
+# Gecko based web browser
+cask "zen"

@@ -1,0 +1,136 @@
+tap "localsend/localsend"
+tap "oven-sh/bun"
+tap "azure/kubelogin", "https://github.com/Azure/homebrew-kubelogin"
+# Alternative prompt theme engine to Powerlevel10k - not currently in use (p10k is
+# the active prompt, see zsh/.zshrc). Nothing from this tap is installed; kept
+# commented as a reminder/pointer if you ever want to switch prompts.
+# tap "jandedobbeleer/oh-my-posh"
+# Secure runtime for JavaScript and TypeScript
+brew "deno"
+# .NET Core
+brew "dotnet"
+# Functional metaprogramming aware language built on Erlang VM
+brew "elixir"
+# Fast and simple Node.js version manager
+brew "fnm"
+# GitHub command-line tool
+brew "gh"
+# Kubernetes package manager
+brew "helm"
+# Kubernetes CLI To Manage Your Clusters In Style!
+brew "k9s"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
+# Postgres C API library
+brew "libpq"
+# Fast, disk space efficient package manager
+brew "pnpm"
+# Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
+brew "oven-sh/bun/bun"
+# Flexible lightweight test report tool
+brew "allure"
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
+# Container runtimes on MacOS (and Linux) with minimal setup
+brew "colima"
+# Update multiple git repositories at once
+brew "gitup"
+# User-friendly cURL replacement (command-line HTTP client)
+brew "httpie"
+# Super fast CLI tool to decode and encode JWTs built in Rust
+brew "jwt-cli"
+# Little helper to run CNCF's k3s in Docker
+brew "k3d"
+# Simple tool to make locally trusted development certificates
+brew "mkcert"
+# Create, run, and share large language models (LLMs)
+brew "ollama"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
+# Define your dev environment as code. For microservice apps on Kubernetes
+brew "tilt"
+# Web browser
+cask "firefox"
+# UI toolkit for building applications for mobile, web and desktop
+cask "flutter"
+# Password manager app
+cask "keepassxc"
+# An open source cross-platform alternative to AirDrop
+cask "localsend"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
+# Control your tools with a few keystrokes
+cask "raycast"
+# Music streaming service
+cask "spotify"
+# Open-source code editor
+cask "visual-studio-code"
+# Multiplayer code editor
+cask "zed"
+# Redis desktop manager
+cask "another-redis-desktop-manager"
+# Colour contrast checker
+cask "colour-contrast-analyser"
+# Universal database tool and SQL client
+cask "dbeaver-community"
+# Provides developers secure tunnels to share local web services
+cask "devtunnel"
+# Launch builds and start simulators from your menu bar
+cask "expo-orbit"
+# Fonts
+cask "font-fira-code-nerd-font"
+# Vector graphics editor
+cask "inkscape"
+# HTTP and GraphQL Client
+cask "insomnia"
+# Clipboard manager
+cask "maccy"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
+# GUI for streamlined Redis application development
+cask "redis-insight"
+# Connect to Windows
+cask "windows-app"
+# vscode extensions
+vscode "42crunch.vscode-openapi"
+vscode "alefragnani.bookmarks"
+vscode "anthropic.claude-code"
+vscode "astro-build.astro-vscode"
+vscode "be5invis.vscode-custom-css"
+vscode "bradlc.vscode-tailwindcss"
+vscode "catppuccin.catppuccin-vsc"
+vscode "catppuccin.catppuccin-vsc-icons"
+vscode "christian-kohler.npm-intellisense"
+vscode "dart-code.dart-code"
+vscode "dart-code.flutter"
+vscode "davidanson.vscode-markdownlint"
+vscode "dbaeumer.vscode-eslint"
+vscode "denoland.vscode-deno"
+vscode "docker.docker"
+vscode "eamodio.gitlens"
+vscode "editorconfig.editorconfig"
+vscode "esbenp.prettier-vscode"
+vscode "expo.vscode-expo-tools"
+vscode "firsttris.vscode-jest-runner"
+vscode "gruntfuggly.todo-tree"
+vscode "humao.rest-client"
+vscode "mhutchie.git-graph"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-dotnettools.csdevkit"
+vscode "ms-dotnettools.csharp"
+vscode "ms-dotnettools.vscode-dotnet-runtime"
+vscode "ms-vscode-remote.remote-containers"
+vscode "naumovs.color-highlight"
+vscode "nrwl.angular-console"
+vscode "oderwat.indent-rainbow"
+vscode "orta.vscode-jest"
+vscode "redhat.vscode-yaml"
+vscode "rust-lang.rust-analyzer"
+vscode "simonsiefke.svg-preview"
+vscode "snyk-security.snyk-vulnerability-scanner"
+vscode "tamasfe.even-better-toml"
+vscode "tauri-apps.tauri-vscode"
+vscode "usernamehw.errorlens"
+vscode "vincaslt.highlight-matching-tag"
+vscode "vitest.explorer"
+vscode "yoavbls.pretty-ts-errors"

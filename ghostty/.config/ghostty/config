@@ -1,6 +1,9 @@
-theme = catppuccin-macchiato
-font-size = 15
-background-opacity = 0.75
-background-blur-radius = 45
+font-family = "MesloLGL Nerd Font Mono Regular"
+font-size = 17
+background-opacity = 0.85
+theme = "Catppuccin Macchiato"
+font-feature = "liga"
+background-blur = true
 window-padding-x = 10
 window-padding-y = 10
+keybind = shift+enter=text:\x1b\r
